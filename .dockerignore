@@ -1,0 +1,32 @@
+# Node modules (cruciaal voor cross-platform builds)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment files (veiligheid)
+.env
+*.env
+
+# OS/Editor/IDE rommel
+.DS_Store
+Thumbs.db
+.vscode
+.vs
+.idea
+*.swp
+*.swo
+
+# Build output
+dist
+build
+tmp
+logs
+*.log
+
+# VS & .NET project files (voor de zekerheid)
+*.dbmdl
+*.jfm
+*.user
+*.suo
+*.cache
+*.pid
